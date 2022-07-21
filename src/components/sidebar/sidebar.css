@@ -1,0 +1,45 @@
+.sidebar {
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+
+.sidebarwraber {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sidebarlist {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebaritem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.feedicon {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+hr {
+    margin: 20px 0;
+}

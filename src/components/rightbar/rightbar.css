@@ -1,0 +1,77 @@
+.rightbar {
+    flex: 3.5;
+}
+
+.wrapper {
+    padding: 20px 20px 0 0;
+}
+
+.photobirth {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.textbirth {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.birthdayContainer {
+    display: flex;
+    align-items: center;
+}
+
+.add {
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.titleRight {
+    margin-bottom: 20px;
+}
+
+.rightBarTitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.followingImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.rightBarInfo {
+    margin-bottom: 30px;
+}
+
+.rightBarInfoItem {
+    margin-bottom: 10px;
+}
+
+.infoKey {
+    font-weight: 500;
+    margin-right: 15px;
+    color: rgba(0, 0, 0, 0.429);
+}
+
+.infoVal {
+    font-weight: 300;
+}
+
+.rightBarFollowings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightBarFollowing {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    cursor: pointer;
+}
